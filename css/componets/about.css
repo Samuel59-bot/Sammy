@@ -39,6 +39,10 @@
       @media (min-width: 960px) {
         width: 50vh;
         height: 60vh;
+        &:hover {
+          transform: scale(1.2);
+          cursor: pointer;
+        }
       }
     }
   }
